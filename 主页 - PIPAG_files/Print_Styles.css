@@ -1,0 +1,42 @@
+body {
+	color: rgb(0, 0, 0); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;
+}
+ul {
+	color: rgb(0, 0, 0); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;
+}
+ol {
+	color: rgb(0, 0, 0); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;
+}
+li {
+	color: rgb(0, 0, 0); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;
+}
+#HeaderDiv {
+	display: none;
+}
+#SidebarDiv {
+	display: none;
+}
+#FooterDiv {
+	display: none;
+}
+#EditHistoryLinkDiv {
+	display: none;
+}
+#RssLinkDiv {
+	display: none;
+}
+#PageLockedDiv {
+	display: none;
+}
+#PageInfoDiv {
+	display: none;
+}
+#MainDiv {
+	margin: 0px; border: currentColor; border-image: none;
+}
+a.editsectionlink {
+	display: none;
+}
+a.headeranchor {
+	display: none;
+}

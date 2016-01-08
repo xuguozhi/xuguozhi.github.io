@@ -1,0 +1,738 @@
+body {
+	margin: 0px; padding: 0px; color: rgb(51, 51, 51); line-height: 1.6em; font-family: "Microsoft YaHei", Georgia, Verdana, Arial, Helvetica, sans-serif, NSimSun, SimSun; font-size: 16px; background-color: rgb(255, 255, 255);
+}
+table {
+	line-height: 1.2em;
+}
+.englishfont {
+	line-height: normal; font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+}
+.chinesefont {
+	font-family: "Microsoft YaHei", Georgia, Verdana, Arial, Helvetica, sans-serif, NSimSun, SimSun;
+}
+.red {
+	color: rgb(221, 0, 0);
+}
+.blue {
+	color: rgb(0, 0, 221);
+}
+p {
+	margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: "Microsoft YaHei", Georgia, Verdana, Arial, Helvetica, sans-serif, STSong, NSimSun, SimSun; font-size: 16px;
+}
+.resulterror {
+	color: rgb(255, 0, 0);
+}
+.resulterror * {
+	color: rgb(255, 0, 0);
+}
+.resultok {
+	color: rgb(0, 153, 0);
+}
+.resultok * {
+	color: rgb(0, 153, 0);
+}
+input {
+	margin: 0px; padding: 2px; color: rgb(0, 0, 0); font-family: Georgia, Verdana, Arial, Helvetica, sans-serif, Microsoft YaHei, STSong, NSimSun, SimSun; font-size: 12px;
+}
+label {
+	margin: 0px; padding: 2px; color: rgb(0, 0, 0); font-family: Georgia, Verdana, Arial, Helvetica, sans-serif, Microsoft YaHei, STSong, NSimSun, SimSun; font-size: 12px;
+}
+select {
+	margin: 0px; color: rgb(0, 0, 0); font-family: Georgia, Verdana, Arial, Helvetica, sans-serif, Microsoft YaHei, STSong, NSimSun, SimSun; font-size: 12px;
+}
+input.tab {
+	padding: 0px; border: 3px solid rgb(221, 221, 221); border-image: none; width: auto; color: rgb(0, 0, 0); overflow: visible; font-size: 11px; background-color: rgb(221, 221, 221);
+}
+input.tabselected {
+	padding: 0px; border: 3px solid rgb(33, 76, 154); border-image: none; width: auto; color: rgb(255, 255, 255); overflow: visible; font-size: 11px; font-weight: bold; background-color: rgb(33, 76, 154);
+}
+input.compact {
+	padding: 0px; font-size: 11px;
+}
+div.globalcaptcha input {
+	width: 144px; margin-top: 2px;
+}
+.small {
+	font-size: 14px;
+}
+small {
+	font-size: 14px;
+}
+.big {
+	font-size: 18px;
+}
+big {
+	font-size: 18px;
+}
+p.imagedescription {
+	font-size: 11px; font-style: italic; margin-top: 4px;
+}
+a {
+	color: rgb(17, 44, 154); text-decoration: none;
+}
+a:link {
+	color: rgb(17, 44, 154); text-decoration: none;
+}
+a:hover {
+	color: rgb(217, 39, 30); text-decoration: underline;
+}
+a:active {
+	color: rgb(17, 44, 154); text-decoration: none;
+}
+a.externallink {
+	background-position: right; padding-right: 14px; background-image: url("Images/ExternalLink.gif"); background-repeat: no-repeat;
+}
+a.internallink {
+	
+}
+a.systemlink {
+	
+}
+a.pagelink {
+	
+}
+a.unknownlink {
+	color: rgb(153, 0, 0); text-decoration: none;
+}
+a.unknownlink:link {
+	color: rgb(153, 0, 0); text-decoration: none;
+}
+a.unknownlink:active {
+	color: rgb(153, 0, 0); text-decoration: none;
+}
+a.unknownlink:hover {
+	color: rgb(217, 103, 30); text-decoration: underline;
+}
+a.emaillink {
+	
+}
+h1 {
+	margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Microsoft YaHei, Georgia, Verdana, Arial, Helvetica, sans-serif, STHeiti, SimHei, SimSun; font-size: 20px; font-weight: normal;
+}
+h2 {
+	margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Microsoft YaHei, Georgia, Verdana, Arial, Helvetica, sans-serif, Microsoft YaHei, STHeiti, SimHei, SimSun; font-size: 18px; font-weight: normal;
+}
+h3 {
+	margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Microsoft YaHei, Georgia, Verdana, Arial, Helvetica, sans-serif, Microsoft YaHei, STHeiti, SimHei, SimSun; font-size: 16px; font-weight: normal;
+}
+h4 {
+	margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Microsoft YaHei, Georgia, Verdana, Arial, Helvetica, sans-serif, Microsoft YaHei, STHeiti, SimHei, SimSun; font-size: 15px; font-style: italic; font-weight: normal;
+}
+h1.pagetitle {
+	color: rgb(136, 0, 0); padding-bottom: 4px; font-size: 26px; font-weight: bold; margin-bottom: 4px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+h1.pagetitlesystem {
+	color: rgb(136, 0, 0); padding-bottom: 4px; font-size: 26px; font-weight: bold; margin-bottom: 4px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+h1.pagetitlesystem {
+	margin-bottom: 10px;
+}
+h1.separator {
+	padding-bottom: 4px; margin-bottom: 8px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+h2.separator {
+	padding-bottom: 4px; margin-bottom: 8px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+h3.separator {
+	padding-bottom: 4px; margin-bottom: 8px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+h4.separator {
+	
+}
+h1.separator a.headeranchor {
+	color: rgb(136, 136, 136); text-decoration: none; margin-left: 4px; display: none;
+}
+h2.separator a.headeranchor {
+	color: rgb(136, 136, 136); text-decoration: none; margin-left: 4px; display: none;
+}
+h3.separator a.headeranchor {
+	color: rgb(136, 136, 136); text-decoration: none; margin-left: 4px; display: none;
+}
+h4.separator a.headeranchor {
+	color: rgb(136, 136, 136); text-decoration: none; margin-left: 4px; display: none;
+}
+h1.separator:hover a.headeranchor {
+	display: inline;
+}
+h2.separator:hover a.headeranchor {
+	display: inline;
+}
+h3.separator:hover a.headeranchor {
+	display: inline;
+}
+h4.separator:hover a.headeranchor {
+	display: inline;
+}
+a.headeranchor:hover {
+	background-color: rgb(240, 240, 240);
+}
+a.editsectionlink {
+	margin: 4px 0px 0px; font-size: 11px; float: right;
+}
+ul {
+	margin: 0px; padding: 0px 8px 0px 28px; color: rgb(51, 51, 51); font-size: 16px;
+}
+ol {
+	margin: 0px; padding: 0px 8px 0px 28px; color: rgb(51, 51, 51); font-size: 16px;
+}
+li {
+	margin: 5px 0px 0px; padding: 0px;
+}
+code {
+	margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Courier New, Lucida Console, Monospace, STSong, NSimSun, SimSun;
+}
+pre {
+	margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Courier New, Lucida Console, Monospace, STSong, NSimSun, SimSun;
+}
+pre {
+	margin: 0px 10px; padding: 8px; border: 1px solid rgb(221, 221, 221); border-image: none; overflow: auto; background-color: rgb(255, 255, 240);
+}
+table {
+	margin: 0px; padding: 0px;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+table.generic {
+	
+}
+table.recentchanges {
+	border-top-color: rgb(153, 153, 153); border-top-width: 1px; border-top-style: solid;
+}
+tr.tableheader td {
+	margin: 0px; padding: 2px 5px; color: rgb(0, 0, 0); font-weight: bold; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+th {
+	margin: 0px; padding: 2px 5px; color: rgb(0, 0, 0); font-weight: bold; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+tr.tablerow td {
+	margin: 0px; padding: 2px 5px; font-size: 11px; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 1px; border-bottom-style: solid;
+}
+tr.tablerow:hover {
+	background-color: rgb(255, 255, 204);
+}
+tr.tablerow:hover td {
+	background-color: rgb(255, 255, 204);
+}
+tr.tablerowalternate td {
+	margin: 0px; padding: 2px 5px; font-size: 11px; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(240, 240, 240);
+}
+tr.tablerowalternate:hover {
+	background-color: rgb(255, 255, 204);
+}
+tr.tablerowalternate:hover td {
+	background-color: rgb(255, 255, 204);
+}
+img {
+	border: currentColor; border-image: none;
+}
+img.image {
+	border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+img.format {
+	padding: 2px; border: 1px solid currentColor; border-image: none;
+}
+div.clear {
+	clear: both;
+}
+div.imageleft {
+	margin: 4px 8px 4px 0px; padding: 4px; border: 1px solid rgb(204, 204, 204); border-image: none; float: left; background-color: rgb(249, 249, 249);
+}
+div.imageright {
+	margin: 4px 0px 4px 8px; padding: 4px; border: 1px solid rgb(204, 204, 204); border-image: none; float: right; background-color: rgb(249, 249, 249);
+}
+table.imageauto {
+	margin: 4px; padding: 4px; border: 1px solid rgb(204, 204, 204); border-image: none; background-color: rgb(249, 249, 249);
+}
+div.box {
+	margin: 4px 4px 0px; padding: 4px; border: 1px solid rgb(204, 204, 204); border-image: none; display: table-cell; background-color: rgb(249, 249, 249);
+}
+select.namespacedropdown {
+	border: 1px solid rgb(153, 153, 153); border-image: none; cursor: pointer; background-color: transparent;
+}
+#HeaderDiv {
+	margin: 4px; padding: 8px;
+}
+#ContainerDiv {
+	
+}
+#SidebarDiv {
+	border-width: medium 1px medium medium; border-style: none solid none none; border-color: currentColor rgb(136, 0, 0) currentColor currentColor; margin: 0px 0px 4px; padding: 8px 8px 12px; width: 170px; float: left; position: relative; background-color: rgb(255, 255, 255);
+}
+#SidebarDiv table {
+	font-family: Microsoft YaHei, Georgia, Verdana, Arial, Helvetica, sans-serif, Microsoft YaHei, STHeiti, SimHei; font-size: 16px; font-weight: bold; vertical-align: middle;
+}
+#SidebarDiv a {
+	color: rgb(136, 0, 0); text-decoration: none;
+}
+#MainDiv {
+	margin: 0px 0px 0px 192px; padding: 8px 8px 12px; border: currentColor; border-image: none; background-color: rgb(255, 255, 255);
+}
+#PageHeaderDiv {
+	
+}
+#PageInternalHeaderDiv {
+	
+}
+#PageInternalFooterDiv {
+	clear: both;
+}
+#EditHistoryLinkDiv {
+	padding-top: 4px; padding-bottom: 4px; font-size: 11px; float: right;
+}
+#EditLink {
+	padding: 2px; border: 1px solid rgb(153, 153, 153); border-image: none; text-decoration: none; margin-left: 0px;
+}
+#HistoryLink {
+	padding: 2px; border: 1px solid rgb(153, 153, 153); border-image: none; text-decoration: none; margin-left: 0px;
+}
+#ViewCodeLink {
+	padding: 2px; border: 1px solid rgb(153, 153, 153); border-image: none; text-decoration: none; margin-left: 0px;
+}
+#PageAttachmentsLink {
+	padding: 2px; border: 1px solid rgb(153, 153, 153); border-image: none; text-decoration: none; margin-left: 0px;
+}
+#DiscussLink {
+	padding: 2px; border: 1px solid rgb(153, 153, 153); border-image: none; text-decoration: none; margin-left: 0px;
+}
+#BackLink {
+	padding: 2px; border: 1px solid rgb(153, 153, 153); border-image: none; text-decoration: none; margin-left: 0px;
+}
+#PostReplyLink {
+	padding: 2px; border: 1px solid rgb(153, 153, 153); border-image: none; text-decoration: none; margin-left: 0px;
+}
+#AdminToolsLink {
+	padding: 2px; border: 1px solid rgb(153, 153, 153); border-image: none; text-decoration: none; margin-left: 0px;
+}
+#EditLink:hover {
+	border: 1px solid rgb(33, 76, 154); border-image: none; text-decoration: none; background-color: rgb(255, 255, 238);
+}
+#HistoryLink:hover {
+	border: 1px solid rgb(33, 76, 154); border-image: none; text-decoration: none; background-color: rgb(255, 255, 238);
+}
+#ViewCodeLink:hover {
+	border: 1px solid rgb(33, 76, 154); border-image: none; text-decoration: none; background-color: rgb(255, 255, 238);
+}
+#PageAttachmentsLink:hover {
+	border: 1px solid rgb(33, 76, 154); border-image: none; text-decoration: none; background-color: rgb(255, 255, 238);
+}
+#DiscussLink:hover {
+	border: 1px solid rgb(33, 76, 154); border-image: none; text-decoration: none; background-color: rgb(255, 255, 238);
+}
+#BackLink:hover {
+	border: 1px solid rgb(33, 76, 154); border-image: none; text-decoration: none; background-color: rgb(255, 255, 238);
+}
+#PostReplyLink:hover {
+	border: 1px solid rgb(33, 76, 154); border-image: none; text-decoration: none; background-color: rgb(255, 255, 238);
+}
+#AdminToolsLink:hover {
+	border: 1px solid rgb(33, 76, 154); border-image: none; text-decoration: none; background-color: rgb(255, 255, 238);
+}
+#PageAttachmentsLink {
+	background-position: right; padding-right: 16px; background-image: url("Images/DropDown.png"); background-repeat: no-repeat;
+}
+#AdminToolsLink {
+	background-position: right; padding-right: 16px; background-image: url("Images/DropDown.png"); background-repeat: no-repeat; background-color: rgb(255, 223, 101);
+}
+#PageAttachmentsDiv {
+	padding: 6px; border: 1px solid rgb(153, 153, 153); border-image: none; background-color: rgb(255, 255, 255);
+}
+#AdminToolsDiv {
+	border: 1px solid rgb(153, 153, 153); border-image: none; background-color: rgb(255, 255, 255);
+}
+#AdminToolsDiv a {
+	padding: 3px 6px; text-align: right; display: block;
+}
+#AdminToolsDiv a:hover {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(33, 76, 154);
+}
+p.editlink {
+	font-size: 11px;
+}
+#PageInfoDiv {
+	font-size: 11px;
+}
+#ModificationSpan {
+	
+}
+#AuthorSpan {
+	
+}
+#CategoriesSpan {
+	padding-bottom: 2px; display: block;
+}
+#NavPathsSpan {
+	padding-left: 16px;
+}
+#PageDiscussionSpan {
+	top: -14px; position: relative;
+}
+#BreadcrumbsDiv {
+	overflow: hidden; padding-bottom: 1px; font-size: 11px; border-top-color: rgb(238, 238, 238); border-bottom-color: rgb(238, 238, 238); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+div.pageoutgoinglinksmenu {
+	border: 1px solid rgb(153, 153, 153); border-image: none; background-color: rgb(255, 255, 255);
+}
+div.pageoutgoinglinksmenu a {
+	padding: 2px 3px; display: block;
+}
+div.pageoutgoinglinksmenu a:hover {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(33, 76, 154);
+}
+#RssLinkDiv {
+	float: right; position: relative;
+}
+#RssLink {
+	width: 24px; height: 13px; text-indent: -2500px; display: block; background-image: url("Images/RSS.png"); background-repeat: no-repeat;
+}
+#PrintLinkDiv {
+	float: right; position: relative;
+}
+#PrintLink {
+	width: 16px; height: 16px; text-indent: -2500px; margin-left: 4px; display: block; background-image: url("Images/Print.png"); background-repeat: no-repeat;
+}
+#EmailNotificationDiv {
+	margin: -2px 4px 0px 0px; float: right; position: relative;
+}
+input.activenotification {
+	margin: 0px; padding: 0px; width: 16px; height: 16px; background-image: url("Images/EmailNotifOn.png");
+}
+input.inactivenotification {
+	margin: 0px; padding: 0px; width: 16px; height: 16px; background-image: url("Images/EmailNotifOff.png");
+}
+#PageContentDiv {
+	margin: 10px 0px 0px;
+}
+#FooterDiv {
+	margin: 0px 4px 4px; padding: 8px;
+}
+#PageListTable {
+	
+}
+#HistoryTable {
+	
+}
+#PreviewDivExternal {
+	
+}
+#PreviewDiv {
+	padding: 10px; border: 4px solid rgb(204, 204, 204); border-image: none;
+}
+blockquote {
+	padding: 0px 0px 2px 6px; margin-left: 16px; border-left-color: rgb(221, 221, 221); border-left-width: 8px; border-left-style: solid;
+}
+div.messagecontainer {
+	margin: 0px 0px 0px 16px;
+}
+div.rootmessagecontainer {
+	margin-bottom: 16px; border-top-color: rgb(33, 76, 154); border-top-width: 2px; border-top-style: solid;
+}
+div.messageheader {
+	padding: 2px; background-color: rgb(240, 240, 240);
+}
+span.messagesubject {
+	font-size: 12px; font-weight: bold;
+}
+span.messagedatetime {
+	padding-left: 20px; font-size: 10px;
+}
+div.messagebody {
+	margin: 0px 0px 6px; padding: 4px; border-right-color: rgb(240, 240, 240); border-bottom-color: rgb(240, 240, 240); border-left-color: rgb(240, 240, 240); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;
+}
+div.messagebody:hover {
+	background-color: rgb(255, 255, 204);
+}
+div.reply {
+	margin: -14px 10px 0px 0px; font-size: 11px; float: right;
+}
+a.reply {
+	background-position: left; padding: 0px 0px 0px 12px; background-image: url("Images/MessageReply.png"); background-repeat: no-repeat;
+}
+a.edit {
+	background-position: left; padding: 0px 0px 0px 13px; margin-left: 16px; background-image: url("Images/MessageEdit.png"); background-repeat: no-repeat;
+}
+a.delete {
+	background-position: left; padding: 0px 0px 0px 10px; margin-left: 16px; background-image: url("Images/MessageDelete.png"); background-repeat: no-repeat;
+}
+div.warning {
+	padding: 6px; border: 1px solid rgb(255, 207, 16); border-image: none; display: table-cell; background-color: rgb(254, 246, 147);
+}
+#TxtSearchBox {
+	background-position: right; border: 1px solid rgb(204, 204, 204); border-image: none; width: 150px; font-size: 11px; background-image: url("Images/Search.png"); background-repeat: no-repeat; background-color: rgb(255, 255, 255);
+}
+span.signature {
+	font-style: italic;
+}
+#TocContainer {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); border-image: none; display: table-cell; background-color: rgb(249, 249, 249);
+}
+a.attachment {
+	background-position: left; padding-left: 14px; background-image: url("Images/Attachment.png"); background-repeat: no-repeat;
+}
+#RedirectionInfoDiv {
+	color: rgb(153, 153, 153); padding-top: 4px; padding-left: 10px; font-size: 11px;
+}
+#RedirectionDiv {
+	background-position: left; padding-left: 24px; font-size: 14px; margin-bottom: 16px; margin-left: 10px; background-image: url("Images/Redirect.png"); background-repeat: no-repeat;
+}
+div.anonymous {
+	padding: 6px; border: 1px solid rgb(255, 207, 16); border-image: none; margin-bottom: 8px; background-color: rgb(254, 246, 147);
+}
+div.autotemplate {
+	padding: 6px; border: 1px solid rgb(255, 207, 16); border-image: none; margin-top: 8px; margin-bottom: 8px; background-color: rgb(254, 246, 147);
+}
+div.collisionsmanagement {
+	padding: 6px; border: 1px solid rgb(255, 207, 16); border-image: none; margin-bottom: 8px; background-color: rgb(254, 246, 147);
+}
+div.draftmanagement {
+	padding: 6px; border: 1px solid rgb(255, 207, 16); border-image: none; margin-bottom: 8px; background-color: rgb(254, 246, 147);
+}
+input.bigtextbox {
+	font-size: 16px; margin-bottom: 2px;
+}
+#EditNoticeDiv {
+	padding: 3px; font-size: 11px; margin-bottom: 8px; background-color: rgb(245, 245, 245);
+}
+#PageNameAndTitleDiv {
+	
+}
+#PageNameAndTitleDiv .large {
+	width: 75%;
+}
+#TemplatesDiv {
+	
+}
+#TemplatesInternalDiv {
+	padding: 4px; background-color: rgb(245, 245, 245);
+}
+#TemplatesInternalDiv select {
+	font-size: 11px;
+}
+#TemplatePreviewDiv {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); border-image: none; font-size: 10px; margin-top: 4px; margin-bottom: 4px;
+}
+#EditorDiv {
+	margin-top: 6px;
+}
+#EditCommentDiv {
+	width: 280px; margin-top: 16px; margin-left: 30px; float: left;
+}
+#EditCommentDiv input {
+	width: 272px; margin-bottom: 6px; float: right;
+}
+div.captcha {
+	padding: 6px; border: 1px solid rgb(255, 207, 16); border-image: none; margin-top: 36px; margin-right: 30px; float: left; background-color: rgb(254, 246, 147);
+}
+#ButtonsDiv {
+	float: right;
+}
+#SaveOptionsDiv {
+	padding: 4px;
+}
+#ResultDiv {
+	
+}
+#CategoriesDiv {
+	width: 340px; margin-top: 16px; float: left;
+}
+#CategoriesListDiv {
+	padding: 4px; width: 334px; height: 100px; overflow: auto; margin-right: 10px; background-color: rgb(245, 245, 245);
+}
+div.categorycreation {
+	margin-top: 6px;
+}
+#AttachmentsDiv {
+	clear: both; margin-top: 40px; float: left;
+}
+.short {
+	width: 150px;
+}
+.medium {
+	width: 200px;
+}
+.large {
+	width: 500px;
+}
+.h_short {
+	height: 100px;
+}
+#SearchControlsDiv {
+	margin-top: 16px;
+}
+input.textbox {
+	width: 300px; font-size: 14px;
+}
+input.button {
+	font-size: 14px;
+}
+#RadiosDiv {
+	margin-top: 6px; margin-bottom: 6px;
+}
+#RadiosDiv label {
+	margin-right: 8px;
+}
+#CategoryFilterDiv {
+	padding: 4px; margin-top: -50px; margin-left: 15px; float: right; background-color: rgb(245, 245, 245);
+}
+#CategoryFilterInternalDiv {
+	width: 250px; height: 200px; overflow: auto; margin-top: 4px;
+}
+#SearchStatsDiv {
+	font-size: 11px; margin-top: 14px;
+}
+#ResultsDiv {
+	min-height: 250px;
+}
+h3.searchresultpage {
+	background-position: left; padding-left: 18px; margin-top: 14px; background-image: url("Images/Page.png"); background-repeat: no-repeat;
+}
+h3.searchresultmessage {
+	background-position: left; padding-left: 18px; margin-top: 14px; background-image: url("Images/Message.png"); background-repeat: no-repeat;
+}
+h3.searchresultfile {
+	background-position: left; padding-left: 18px; margin-top: 14px; background-image: url("Images/File.png"); background-repeat: no-repeat;
+}
+h3.searchresultattachment {
+	background-position: left; padding-left: 18px; margin-top: 14px; background-image: url("Images/Attachment.png"); background-repeat: no-repeat;
+}
+h3.searchresultpage a {
+	font-weight: bold;
+}
+h3.searchresultmessage a {
+	font-weight: bold;
+}
+h3.searchresultfile a {
+	font-weight: bold;
+}
+h3.searchresultattachment a {
+	font-weight: bold;
+}
+p.excerpt {
+	padding-top: 4px; padding-bottom: 4px; padding-left: 8px; font-size: 11px; margin-top: 4px; margin-left: 4px; border-left-color: rgb(221, 221, 221); border-left-width: 4px; border-left-style: solid;
+}
+p.excerpt b {
+	font-weight: normal; background-color: rgb(255, 238, 100);
+}
+#MainFileManagerDiv {
+	float: left;
+}
+#FileManagementControlsDiv {
+	float: right;
+}
+#DirectoriesDiv {
+	margin-bottom: 3px;
+}
+#ItemRenameDiv {
+	padding: 8px; margin-top: 10px; background-color: rgb(245, 245, 245);
+}
+#NewDirectoryDiv {
+	padding: 8px; width: 470px; margin-bottom: 16px; float: right; background-color: rgb(245, 245, 245);
+}
+#UploadDiv {
+	padding: 8px; width: 470px; margin-bottom: 16px; float: right; background-color: rgb(245, 245, 245);
+}
+#PermissionsDiv {
+	padding: 8px; width: 470px; margin-bottom: 16px; float: right; background-color: rgb(245, 245, 245);
+}
+#PermissionsDiv #SubjectsDiv {
+	float: left;
+}
+#PermissionsDiv #SubjectsDiv select {
+	width: 210px; height: 90px; margin-bottom: 10px;
+}
+#PermissionsDiv #SubjectsManagementDiv {
+	width: 240px; margin-top: 12px; margin-left: 10px; float: left;
+}
+#PermissionsDiv #SubjectsManagementDiv input.textbox {
+	width: 150px;
+}
+#PermissionsDiv #SubjectsManagementDiv select.dropdown {
+	width: 155px;
+}
+#PermissionsDiv #InternalButtonsDiv {
+	clear: left; margin-bottom: 10px; float: left;
+}
+#AclSelectorDiv {
+	margin: 10px 0px; padding: 10px; border: 1px solid rgb(255, 207, 16); border-image: none; float: left; background-color: rgb(254, 246, 147);
+}
+#AclSelectorDiv label {
+	padding-right: 10px;
+}
+#FileManagerTable {
+	
+}
+#MainAttachmentManagerDiv {
+	float: left;
+}
+#UploadAttachmentDiv {
+	padding: 8px; width: 400px; margin-left: 10px; float: right; background-color: rgb(240, 240, 240);
+}
+#AttachmentManagerTable {
+	
+}
+#AttachmentViewerPage {
+	
+}
+#SABody {
+	
+}
+#HeaderSADiv {
+	margin: 6px auto 0px; padding: 8px; width: 90%;
+}
+#NavigationSADiv {
+	margin: 0px auto; padding: 8px; width: 90%;
+}
+#ContainerSADiv {
+	margin: 0px auto; padding: 8px 8px 12px; border: 1px solid rgb(136, 136, 136); border-image: none; width: 90%; background-color: rgb(255, 255, 255);
+}
+#FooterSADiv {
+	margin: 8px auto; padding: 0px; width: 90%;
+}
+#UserGravatarDiv {
+	float: right;
+}
+#UserGravatarDiv img {
+	margin: 10px; padding: 3px; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+#EmailMessageDiv {
+	margin-top: 20px;
+}
+#EmailMessageDiv .subject {
+	width: 50%;
+}
+#EmailMessageDiv .body {
+	width: 98%; height: 200px; font-family: Georgia, Verdana, Arial, Helvetica, sans-serif, Microsoft YaHei, STSong, NSimSun, SimSun; font-size: 12px; margin-top: 6px;
+}
+#PageSelectorDiv {
+	margin: 6px 0px; font-size: 11px;
+}
+#PageSelectorDiv a {
+	padding: 2px; line-height: 17px;
+}
+#PageSelectorDiv a:hover {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(33, 76, 154);
+}
+a.selected {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(33, 76, 154);
+}
+a.selected:hover {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(33, 76, 154);
+}
+#PageSelectorDiv a.selected {
+	font-weight: bold;
+}
+a.selected:hover {
+	font-weight: bold;
+}
+#PostCaptchaDiv {
+	height: 40px;
+}
+div.cleanup {
+	clear: both;
+}
+div.cleanupright {
+	clear: right;
+}
+div.cleanupleft {
+	clear: left;
+}
