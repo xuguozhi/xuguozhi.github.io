@@ -21,7 +21,7 @@ repository               : "xuguozhi/xuguozhi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "20240415-003029.jpeg"
+  avatar           : "20240415-003029.png"
   name             : "Xu Guozhi"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
